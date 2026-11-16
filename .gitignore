@@ -1,0 +1,23 @@
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+coverage/
+*.log
+
+# Local document storage
+uploads/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
